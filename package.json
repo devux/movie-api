@@ -1,0 +1,15 @@
+{
+  "name": "movie-api",
+  "version": "1.0.0",
+  "description": "API for movie application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Devakumar M",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
