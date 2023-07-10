@@ -1,4 +1,5 @@
 const express = require('express');
+var cors = require('cors')
 const app = express();
 const movies = [
     {
@@ -154,6 +155,8 @@ const movies = [
       rating: 8.3,
     }
 ]
+
+app.use(cors())
 // List all movies
 app.get('/api/movies', (req, res) => {
   res.json(movies);
